@@ -1,0 +1,14 @@
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
+.homepage {
+    display: flex;
+}
+
+.navbar {
+    height: 100vh;
+    width: 15vw !important;
+    background-color: black;
+}

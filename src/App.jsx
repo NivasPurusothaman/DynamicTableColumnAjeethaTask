@@ -1,11 +1,14 @@
 import React from 'react'
 import DynamicTable from './DynamicTable'
 import './style.css'
+import HomePage from './HomePage'
+
 
 function App() {
   return (
     <div>
-        <DynamicTable />
+      <HomePage />
+      {/* <DynamicTable /> */}
     </div>
   )
 }

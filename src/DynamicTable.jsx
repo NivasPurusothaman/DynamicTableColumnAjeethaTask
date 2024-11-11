@@ -23,7 +23,7 @@ function DynamicTable() {
     const finalHeaders = firstHeader.concat(headerApiData)
 
   return (
-    <div>
+    <div className='tableDiv'>
       <table>
         <thead>
           <tr>

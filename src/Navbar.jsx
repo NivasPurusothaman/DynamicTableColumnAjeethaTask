@@ -8,13 +8,19 @@ function Navbar({navState, setNavState}) {
         <h1>Menu</h1>
       </div>
       <div className='btnDiv'>
-        <button className={navState===1 ? "focussedBtn" : null} onClick={()=>setNavState(1)}>First</button>
+        <div className={navState===1 ? "focussedBtn" : null}>
+          <button onClick={()=>setNavState(1)}>First</button>
+        </div>
       </div>
       <div className='btnDiv'>
-       <button className={navState===2 ? "focussedBtn" : null} onClick={()=>setNavState(2)}>Second</button>
+        <div className={navState===2 ? "focussedBtn" : null}>
+          <button onClick={()=>setNavState(2)}>Second</button>
+        </div>
       </div>
       <div className='btnDiv'>
-        <button className={navState===3 ? "focussedBtn" : null} onClick={()=>setNavState(3)}>Third</button>
+        <div className={navState===3 ? "focussedBtn" : null}>
+          <button onClick={()=>setNavState(3)}>Third</button>
+        </div>
       </div>
     </div>
   );

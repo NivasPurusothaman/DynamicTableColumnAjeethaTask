@@ -1,3 +1,8 @@
+.tableDiv {
+    max-width: 1100px;
+    overflow-x: scroll;
+}
+
 table {
     border-collapse: collapse;
 }

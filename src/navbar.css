@@ -1,11 +1,11 @@
 .navbarHeader {
-    color: whitesmoke;
+    color: white;
     /* text-align: center; */
     padding-left: 10px;
 }
 
 .btnDiv {
-    margin-top: 10px;
+    margin-top: 2px;
 }
 
 .btnDiv button {
@@ -14,17 +14,20 @@
     padding: 10px;
     font-weight: bold;
     text-align: start;
+    border: none;
+    background-color: gray;
+    color: white;
 }
 
 .btnDiv :hover {
-    background-color: black;
-    color: whitesmoke;
+    background-color: white;
+    color: gray;
     cursor: pointer;
-    border: 0.5px solid whitesmoke;
+    border: 0.5px solid gray;
 }
 
-.focussedBtn {
-    background-color: black;
-    color: whitesmoke;
-    border: 0.5px solid whitesmoke;
+.focussedBtn button {
+    background-color: white;
+    color: gray;
+    border: 0.5px solid gray;
 }

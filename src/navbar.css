@@ -1,11 +1,14 @@
 .navbarHeader {
     color: white;
     /* text-align: center; */
-    padding-left: 10px;
+    /* padding-left: 10px; */
+    margin-left: 20px;
 }
 
 .btnDiv {
     margin-top: 2px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .btnDiv button {
@@ -17,17 +20,37 @@
     border: none;
     background-color: gray;
     color: white;
+    border-radius: 5px;
 }
 
-.btnDiv :hover {
+.btnDiv button:hover {
     background-color: white;
     color: gray;
     cursor: pointer;
-    border: 0.5px solid gray;
 }
 
 .focussedBtn button {
     background-color: white;
     color: gray;
     border: 0.5px solid gray;
+}
+
+.btnIcon {
+    margin-right: 15px;
+    margin-left: 5px;
+}
+
+.navParentDiv {
+    position: relative;
+}
+
+.arrow {
+    position: absolute;
+    right: -8px;
+    top: 6px;
+    color: white;
+}
+
+.arrow:hover {
+    cursor: pointer;
 }

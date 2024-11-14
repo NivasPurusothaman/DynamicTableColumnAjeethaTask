@@ -5,13 +5,13 @@ function Navbar({navState, setNavState, arrowNum, setArrowNum}) {
 
   return (
     <div className='navParentDiv'>
-      <div className='arrow'>
+      {/* <div className='arrow'> */}
         {
           arrowNum === 1 ?
-          <i className='pi pi-chevron-circle-left' style={{fontSize: "30px"}} onClick={()=>setArrowNum(2)}></i> :
-          <i className='pi pi-chevron-circle-right' style={{fontSize: "30px"}} onClick={()=>setArrowNum(1)}></i>
+          <i className='pi pi-angle-left arrow' style={{fontSize: "20px"}} onClick={()=>setArrowNum(2)}></i> :
+          <i className='pi pi-angle-right arrow' style={{fontSize: "20px"}} onClick={()=>setArrowNum(1)}></i>
         }
-      </div>
+      {/* </div> */}
       <div className="navbarHeader">
         {
           arrowNum === 1 ?

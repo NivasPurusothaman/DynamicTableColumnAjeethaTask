@@ -46,10 +46,22 @@
 
 .arrow {
     position: absolute;
-    right: -8px;
+    right: -13px;
     top: 6px;
-    color: white;
+    /* color: white; */
+    background-color: white;
+    color: gray;
+    border: none;
+    border-radius: 17px;
+    padding: 6px;
+    box-shadow: 5px 0px rgba(0, 0, 0, 0.1);
 }
+
+/* .arrow i {
+    background-color: white;
+    color: gray;
+    border: none;
+} */
 
 .arrow:hover {
     cursor: pointer;
